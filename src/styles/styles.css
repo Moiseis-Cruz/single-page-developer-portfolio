@@ -1,12 +1,10 @@
 header {
-    /* background-color: burlywood; */
     background-color: black;
     max-width: 1440px;
     margin: auto;
 }
 
 .header-section {
-    /* background-color: pink; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -17,14 +15,16 @@ header {
 }
 
 .developer-name {
-    /* background-color: red; */
     font-size: 32px;
     font-weight: 700;
-    color: #fff;
+    color: var(--tertiary-color);
 }
 
 .social-media {
-    /* background-color: rebeccapurple; */
     display: flex;
     gap: 32px;
 }
+
+/* .media:hover {
+    scale: 1.1;
+} */
