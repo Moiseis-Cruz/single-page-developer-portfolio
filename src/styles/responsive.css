@@ -1,0 +1,31 @@
+@media (max-width: 768px) {
+    body {
+        background-color: darksalmon;
+    }
+
+    .header-section {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        max-width: 708px;
+        margin: auto;
+        padding: 36px 0;
+    }
+}
+
+@media (max-width: 375px) {
+    body {
+        background-color: brown;
+    }
+
+    .header-section {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        max-width: 153px;
+        margin: auto;
+        padding: 36px 0;
+    }
+}
