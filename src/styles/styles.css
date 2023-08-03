@@ -25,6 +25,10 @@ header {
     gap: 32px;
 }
 
-/* .media:hover {
-    scale: 1.1;
-} */
+.hero {
+    background-color: gray;
+}
+
+.hero .title {
+    background-color: red;
+}
