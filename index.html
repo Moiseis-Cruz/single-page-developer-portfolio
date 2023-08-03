@@ -34,15 +34,17 @@
     <main>
         <section class="hero">
             <div>
-                <h1>Nice to meet you! I’m <span>Adam Keyes.</span></h1>
+                <h1 class="title">Nice to meet you! I’m <span>Adam Keyes.</span></h1>
 
-                <p>Based in the UK, I’m a front-end developer passionate about building accessible web apps that users love.</p>
+                <p class="hero-description">Based in the UK, I’m a front-end developer passionate about building accessible web apps that users love.</p>
 
-                <a href="./" target="_blank" rel="">Based in the UK, I’m a front-end developer passionate about building accessible web apps that users love.</a>
+                <a class="btn-hero" href="./" target="_blank">CONTACT ME</a>
             </div>
 
-            <picture>
-                <img src="" alt="">
+            <picture class="image-profile">
+                <source srcset="./src/img/image-profile-mobile.webp" media="(max-width: 375px)">
+                <source srcset="./src/img/image-profile-tablet.webp" media="(max-width: 768px)">
+                <img src="./src/img/image-profile-desktop.webp" alt="Imagem Desenvolverdo">
             </picture>
         </section>
     </main>
