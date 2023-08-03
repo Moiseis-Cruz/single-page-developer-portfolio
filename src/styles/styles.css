@@ -14,6 +14,11 @@ header {
     padding: 36px 0;
 }
 
+main {
+    max-width: 1440px;
+    margin: auto;
+}
+
 .developer-name {
     font-size: 32px;
     font-weight: 700;
@@ -30,5 +35,18 @@ header {
 }
 
 .hero .title {
-    background-color: red;
+    font-size: 88px;
+    font-weight: 700;
+    color: var(--tertiary-color);
+}
+
+.hero .title span {
+    /* background-color: red; */
+    border-bottom: 6px solid red;
+    text-decoration: underline red;
+}
+
+.hero .hero-description {
+    color: var(--tertiary-color);
+    font-size: 18px;
 }
