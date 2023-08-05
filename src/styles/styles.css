@@ -1,7 +1,9 @@
 header {
-    background-color: #000;
+    /* background-color: #000; */
     max-width: 1440px;
+    width: 100%;
     margin: auto;
+    /* background-color: cadetblue; */
 }
 
 .header-section {
@@ -16,8 +18,11 @@ header {
 
 main {
     max-width: 1440px;
+    width: 100%;
     margin: auto;
-    background-color: #000;
+    /* background-color: #000; */
+    position: relative;
+    /* background-color: brown; */
 }
 
 .developer-name {
@@ -34,6 +39,11 @@ main {
 .hero {
     /* background-color: gray; */
     padding-top: 91px;
+}
+
+.hero div {
+    /* background-color: red; */
+    padding-left: 165px;
 }
 
 .hero .title {
@@ -69,7 +79,13 @@ main {
 }
 
 .hero .image-profile {
-    background-color: chartreuse;
+    /* background-color: chartreuse; */
     width: 445px;
-    /* height: auto; */
+    height: auto;
+    display: inline-block;
+    position: absolute;
+    top: -112px;
+    right: 176px;
+    z-index: -1;
 }
+
