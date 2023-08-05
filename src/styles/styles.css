@@ -1,9 +1,7 @@
 header {
-    /* background-color: #000; */
     max-width: 1440px;
     width: 100%;
     margin: auto;
-    /* background-color: cadetblue; */
 }
 
 .header-section {
@@ -20,9 +18,7 @@ main {
     max-width: 1440px;
     width: 100%;
     margin: auto;
-    /* background-color: #000; */
     position: relative;
-    /* background-color: brown; */
 }
 
 .developer-name {
@@ -37,12 +33,10 @@ main {
 }
 
 .hero {
-    /* background-color: gray; */
     padding-top: 91px;
 }
 
 .hero div {
-    /* background-color: red; */
     padding-left: 165px;
 }
 
@@ -65,7 +59,6 @@ main {
 }
 
 .hero .btn-hero{
-    /* background-color: rebeccapurple; */
     font-weight: 700;
     color: var(--tertiary-color);
     width: 117px;
@@ -74,12 +67,10 @@ main {
     align-items: center;
     justify-content: center;
     margin-top: 66px;
-    /* padding-bottom: 10px; */
     border-bottom: 2px solid var(--primary-color);
 }
 
 .hero .image-profile {
-    /* background-color: chartreuse; */
     width: 445px;
     height: auto;
     display: inline-block;
