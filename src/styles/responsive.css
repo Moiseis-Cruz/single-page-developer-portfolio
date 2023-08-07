@@ -1,19 +1,20 @@
 @media (max-width: 768px) {
-    body {
-        background-color: darksalmon;
-    }
-
     .header-section {
         max-width: 708px;
         padding: 29px 0;
     }
+
+    .hero .title {
+        font-size: 72px;
+        max-width: 443px;
+    }
+
+    .hero .hero-description {
+        margin-top: 66px;
+    }
 }
 
 @media (max-width: 375px) {
-    body {
-        background-color: brown;
-    }
-
     .header-section {
         flex-direction: column;
         gap: 20px;
@@ -32,5 +33,17 @@
     ul li img {
         width: 19px;
         height: 19px;
+    }
+
+    .hero .title {
+        font-size: 40px;
+    }
+
+    .hero .hero-description {
+        max-width: 343px;
+        text-align: center;
+        font-size: 16px;
+        margin-top: 24px;
+        line-height: 26px;
     }
 }
