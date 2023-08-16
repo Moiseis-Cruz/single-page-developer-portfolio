@@ -8,6 +8,7 @@
 
 body {
     background-color: black;
+    color: var(--tertiary-color);
     font-family: 'Space Grotesk', sans-serif;
 }
 
