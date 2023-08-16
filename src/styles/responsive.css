@@ -12,6 +12,18 @@
     .hero .hero-description {
         margin-top: 66px;
     }
+
+    .skills {
+        /* background-color: darkgray; */
+        margin-top: 47px;
+    }
+
+    .skills .container-skills {
+        padding-top: 52px;
+        max-width: 706px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 52px 7px;
+    }
 }
 
 @media (max-width: 375px) {
@@ -45,5 +57,33 @@
         font-size: 16px;
         margin-top: 24px;
         line-height: 26px;
+    }
+
+    .skills {
+        /* background-color: darkgray; */
+        margin-top: 80px;
+    }
+
+    .skills .container-skills {
+        padding-top: 80px;
+        max-width: 343px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 24px 30px;
+    }
+
+    .skills .container-skills .skill {
+        /* background-color: brown; */
+        /* border: 1px solid red; */
+        text-align: center;
+    }
+
+    .skills .skill .skill-name {
+        /* background-color: rebeccapurple; */
+        font-size: 32px;
+    }
+
+    .skills .skill .skill-time {
+        margin-top: 1px;
+        font-size: 16px;
     }
 }
