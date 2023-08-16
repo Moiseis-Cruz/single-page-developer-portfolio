@@ -82,3 +82,36 @@ main {
     z-index: -1;
 }
 
+.skills {
+    /* background-color: darkgray; */
+    margin-top: 65px;
+}
+
+.skills .container-skills {
+    border-top: 1px solid var(--tertiary-color);
+    /* background-color: darkblue; */
+    margin: auto;
+    padding-top: 72px;
+    max-width: 1110px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 58px 30px;
+    /* align-content: center; */
+}
+
+/* .skills .container-skills .skill {
+    background-color: brown;
+    border: 1px solid red;
+} */
+
+.skills .skill .skill-name {
+    /* background-color: rebeccapurple; */
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.skills .skill .skill-time {
+    /* background-color: aqua; */
+    margin-top: 14px;
+    font-size: 18px;
+}
