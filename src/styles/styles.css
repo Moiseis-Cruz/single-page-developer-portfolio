@@ -105,7 +105,6 @@ main {
     margin-top: 14px;
     font-size: 18px;
 }
-
 .projects {
     margin-top: 140px;
 }
@@ -114,12 +113,15 @@ main {
     width: 100%;
     max-width: 1110px;
     margin: 0 auto;
+    background-color: red;
 }
 
 .projects .container-projects .content-projects{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: aquamarine;
+    border: 3px solid green;
 }
 
 .projects .content-projects h2 {
@@ -127,15 +129,40 @@ main {
     font-weight: 700;
 }
 
-.projects .container-projects .cards-projects {
+.projects .btn-project{
+    font-weight: 700;
+    color: var(--tertiary-color);
+    width: 117px;
+    height: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 10px;
+}
+
+
+.projects .container-projects .list-projects {
     background-color: gray;
-    border: 3px solid red;
+    border: 3px solid palevioletred;
     margin-top: 80px;
     display: grid;
+    gap: 20px;
     grid-template-columns: repeat(2, 1fr);
 }
+
+.projects .list-projects .picture {
+    width: 545px;
+    height: 400px;
+}
+/* 
 
 .projects .cards-projects .card-project {
     border: 3px solid yellow;
     padding: 10px;
+} */
+
+.teste1, .teste2 {
+    /* display: none; */
+    background-color: red;
 }
