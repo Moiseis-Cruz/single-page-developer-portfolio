@@ -105,3 +105,37 @@ main {
     margin-top: 14px;
     font-size: 18px;
 }
+
+.projects {
+    margin-top: 140px;
+}
+
+.projects .container-projects {
+    width: 100%;
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.projects .container-projects .content-projects{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.projects .content-projects h2 {
+    font-size: 88px;
+    font-weight: 700;
+}
+
+.projects .container-projects .cards-projects {
+    background-color: gray;
+    border: 3px solid red;
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.projects .cards-projects .card-project {
+    border: 3px solid yellow;
+    padding: 10px;
+}
