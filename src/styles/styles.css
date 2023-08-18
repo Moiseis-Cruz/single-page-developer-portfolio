@@ -143,26 +143,26 @@ main {
 
 
 .projects .container-projects .list-projects {
-    background-color: gray;
-    border: 3px solid palevioletred;
     margin-top: 80px;
     display: grid;
     gap: 20px;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 545px);
 }
 
-.projects .list-projects .picture {
+.projects .card-project {
+    border: 5px dashed rebeccapurple;
+}
+
+.projects .list-projects .picture img {
+    width: 100%;
+    height: auto;
+}
+
+/* .projects .list-projects .picture {
     width: 545px;
     height: 400px;
-}
-/* 
-
-.projects .cards-projects .card-project {
-    border: 3px solid yellow;
-    padding: 10px;
 } */
-
-.teste1, .teste2 {
+.teste {
     /* display: none; */
-    background-color: red;
+    background-color: yellow;
 }
