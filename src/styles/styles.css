@@ -121,16 +121,11 @@ main {
     width: 100%;
     max-width: 1110px;
     margin: 0 auto;
-    /* background-color: red; */
 }
 
 .projects .container-projects .content-projects{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    /* justify-content: space-between;
-    align-items: center; */
-    /* background-color: aquamarine;
-    border: 3px solid green; */
 }
 
 .projects .content-projects h2 {
@@ -150,7 +145,6 @@ main {
     padding-bottom: 10px;
 }
 
-
 .projects .container-projects .list-projects {
     margin-top: 80px;
     display: grid;
@@ -159,13 +153,8 @@ main {
 }
 
 .projects .card-project .image-project {
-    /* background-color: yellowgreen; */
     position: relative;
 }
-
-/* .projects .card-project {
-    border: 5px dashed rebeccapurple;
-} */
 
 .projects .list-projects .picture img {
     width: 100%;
@@ -173,13 +162,11 @@ main {
 }
 
 .projects .card-project .project-title {
-    /* background-color: blue; */
     margin-top: 20px;
     font-size: 24px;
 }
 
 .projects .card-project .list-technologies {
-    /* background-color: burlywood; */
     display: flex;
     gap: 18px;
     margin-top: 7px;
@@ -189,10 +176,6 @@ main {
     font-size: 18px;
 }
 
-/* .projects .list-projects .picture {
-    width: 545px;
-    height: 400px;
-} */
 .provisoriamente1 {
     /* display: none; */
     position: absolute;
