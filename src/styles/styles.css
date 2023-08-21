@@ -112,6 +112,7 @@ main {
     margin-top: 14px;
     font-size: 18px;
 }
+
 .projects {
     margin-top: 140px;
 }
@@ -124,9 +125,10 @@ main {
 }
 
 .projects .container-projects .content-projects{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* justify-content: space-between;
+    align-items: center; */
     /* background-color: aquamarine;
     border: 3px solid green; */
 }
