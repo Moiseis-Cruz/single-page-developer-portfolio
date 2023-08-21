@@ -14,7 +14,7 @@
     }
 
     .skills {
-        margin-top: 47px;
+        margin-top: 60px;
     }
 
     .skills .container-skills {
@@ -42,7 +42,7 @@
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 376px) {
     .header-section {
         flex-direction: column;
         gap: 20px;
