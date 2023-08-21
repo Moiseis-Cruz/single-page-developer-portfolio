@@ -35,6 +35,11 @@
     .projects .content-projects h2 {
         font-size: 72px;
     }
+
+    .projects .container-projects .list-projects {
+        margin-top: 60px;
+        gap: 60px 20px;
+    }
 }
 
 @media (max-width: 375px) {
@@ -110,5 +115,11 @@
 
     .projects .content-projects h2 {
         font-size: 40px;
+    }
+
+    .projects .container-projects .list-projects {
+        margin-top: 40px;
+        gap: 40;
+        grid-template-columns: 1fr;
     }
 }
