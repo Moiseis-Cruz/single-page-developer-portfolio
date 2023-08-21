@@ -23,6 +23,18 @@
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 52px 7px;
     }
+
+    .projects {
+        margin-top: 100px;
+    }
+
+    .projects .container-projects {
+        max-width: 706px;
+    }
+
+    .projects .content-projects h2 {
+        font-size: 72px;
+    }
 }
 
 @media (max-width: 375px) {
@@ -67,6 +79,8 @@
         max-width: 343px;
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 24px 30px;
+        padding-bottom: 40px;
+        border-bottom: 1px solid var(--tertiary-color);
     }
 
     .skills .container-skills .skill {
@@ -80,5 +94,21 @@
     .skills .skill .skill-time {
         margin-top: 1px;
         font-size: 16px;
+    }
+
+    .projects {
+        margin-top: 80px;
+    }
+
+    .projects .container-projects {
+        max-width: 343px;
+    }
+
+    .projects .container-projects .content-projects{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .projects .content-projects h2 {
+        font-size: 40px;
     }
 }
