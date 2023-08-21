@@ -121,11 +121,13 @@ main {
     width: 100%;
     max-width: 1110px;
     margin: 0 auto;
+    /* background-color: rebeccapurple; */
 }
 
 .projects .container-projects .content-projects{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .projects .content-projects h2 {
@@ -148,8 +150,14 @@ main {
 .projects .container-projects .list-projects {
     margin-top: 80px;
     display: grid;
-    gap: 20px;
-    grid-template-columns: repeat(2, 545px);
+    gap: 69px 20px;
+    grid-template-columns: repeat(2, 1fr);
+    /* background-color: red; */
+}
+
+.projects .list-projects .card-project {
+    /* background-color: yellow; */
+    max-width: 545px;
 }
 
 .projects .card-project .image-project {
@@ -176,8 +184,10 @@ main {
     font-size: 18px;
 }
 
+/* TESTE */
+
 .provisoriamente1 {
-    /* display: none; */
+    display: none;
     position: absolute;
     background-color: yellow;
     top: 130px;
@@ -186,7 +196,7 @@ main {
 }
 
 .provisoriamente2 {
-    /* display: none; */
+    display: none;
     position: absolute;
     background-color: yellow;
     top: 224px;
