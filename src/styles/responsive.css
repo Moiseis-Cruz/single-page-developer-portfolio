@@ -4,13 +4,22 @@
         padding: 29px 0;
     }
 
+    .hero div {
+        padding-left: 0;
+    }
+
     .hero .title {
         font-size: 72px;
-        max-width: 443px;
+        /* max-width: 443px; */
     }
 
     .hero .hero-description {
         margin-top: 66px;
+    }
+
+    .hero .image-profile {
+        width: 332px;
+        right: 0;
     }
 
     .skills {
@@ -63,6 +72,11 @@
         height: 19px;
     }
 
+    .hero div {
+        text-align: center;
+        margin-top: 308px;
+    }
+
     .hero .title {
         font-size: 40px;
     }
@@ -73,6 +87,17 @@
         font-size: 16px;
         margin-top: 24px;
         line-height: 26px;
+    }
+
+    .hero .image-profile {
+        width: 174px;
+        height: auto;
+        display: inline-block;
+        position: absolute;
+        top: -112px;
+        right: 50%;
+        transform: translateX(50%);
+        z-index: -1;
     }
 
     .skills {
