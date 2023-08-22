@@ -32,12 +32,12 @@ main {
     gap: 32px;
 }
 
-.social-media .media a:hover {
+/* .social-media .media a:hover {
     background-color: red;
     color: rebeccapurple;
     transform: scale(2);
     display: inline-block;
-}
+} */
 
 .hero {
     padding-top: 91px;
@@ -101,7 +101,7 @@ main {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 58px 30px;
-    background-color: red;
+    /* background-color: red; */
 }
 
 .skills .skill {
