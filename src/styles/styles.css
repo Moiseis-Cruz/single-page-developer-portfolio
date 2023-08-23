@@ -104,10 +104,10 @@ main {
     /* background-color: red; */
 }
 
-.skills .skill {
+/* .skills .skill {
     border: 3px dashed yellow;
     background-color: green;
-}
+} */
 
 .skills .skill .skill-name {
     font-size: 48px;
