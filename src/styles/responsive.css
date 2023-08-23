@@ -10,7 +10,6 @@
 
     .hero .title {
         font-size: 72px;
-        /* max-width: 443px; */
     }
 
     .hero .hero-description {
@@ -75,7 +74,6 @@
     .hero div {
         text-align: center;
         margin-top: 308px;
-        /* background-color: red; */
     }
 
     .hero .title {
@@ -88,7 +86,6 @@
         font-size: 16px;
         margin: 24px auto 0;
         line-height: 26px;
-        /* background-color: green; */
     }
 
     .hero .btn-hero{
