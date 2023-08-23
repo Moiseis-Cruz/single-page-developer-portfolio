@@ -75,6 +75,7 @@
     .hero div {
         text-align: center;
         margin-top: 308px;
+        /* background-color: red; */
     }
 
     .hero .title {
@@ -85,9 +86,14 @@
         max-width: 343px;
         text-align: center;
         font-size: 16px;
-        margin-top: 24px;
+        margin: 24px auto 0;
         line-height: 26px;
+        /* background-color: green; */
     }
+
+    .hero .btn-hero{
+    margin: 24px auto 0;
+}
 
     .hero .image-profile {
         width: 174px;
