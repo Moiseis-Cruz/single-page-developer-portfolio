@@ -72,6 +72,10 @@ main {
     padding-bottom: 10px;
 }
 
+.hero .btn-hero:active {
+    color: var(--primary-color);
+}
+
 .hero .image-profile {
     width: 445px;
     height: auto;
@@ -127,7 +131,7 @@ main {
     font-weight: 700;
 }
 
-.projects .btn-project{
+.projects .btn-project {
     font-weight: 700;
     color: var(--tertiary-color);
     width: 117px;
@@ -137,6 +141,10 @@ main {
     justify-content: center;
     border-bottom: 2px solid var(--primary-color);
     padding-bottom: 10px;
+}
+
+.projects .btn-project:active {
+    color: var(--primary-color);
 }
 
 .projects .container-projects .list-projects {
