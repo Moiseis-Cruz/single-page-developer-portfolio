@@ -154,6 +154,25 @@ main {
     grid-template-columns: repeat(2, 1fr);
 }
 
+.projects .list-projects .link-project, .projects .list-projects .link-code {
+    display: none;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.projects .image-project:hover .link-project, .projects .image-project:hover .link-code {
+    display: block;
+}
+
+.projects .list-projects .link-project {
+    top: 130px;
+}
+
+.projects .list-projects .link-code {
+    top: 224px;
+}
+
 .projects .list-projects .card-project {
     max-width: 545px;
 }
@@ -180,22 +199,4 @@ main {
 
 .projects .list-technologies .technologie {
     font-size: 18px;
-}
-
-/* TESTE */
-
-.provisoriamente1 {
-    display: none;
-    position: absolute;
-    top: 130px;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-.provisoriamente2 {
-    display: none;
-    position: absolute;
-    top: 224px;
-    left: 50%;
-    transform: translateX(-50%);
 }
