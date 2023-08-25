@@ -161,8 +161,20 @@ main {
     transform: translateX(-50%);
 }
 
+.projects .image-project:hover .picture, .projects .image-project:hover .picture {
+    opacity: 0.25;
+}
+
 .projects .image-project:hover .link-project, .projects .image-project:hover .link-code {
     display: block;
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 10px;
+    color: #fff;
+}
+
+.projects .image-project:hover .link-project:active, .projects .image-project:hover .link-code:active {
+    display: block;
+    color: var(--primary-color);
 }
 
 .projects .list-projects .link-project {
