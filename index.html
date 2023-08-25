@@ -206,18 +206,23 @@
                 <p>I would love to hear about your project and how I could help. Please fill in the form, and I’ll get back to you as soon as possible.</p>
             </div>
 
-            <form>
-                <div>
+            <form id="formulay">
+                <div class="form-control">
                     <input type="text" name="name" id="name" placeholder="NAME">
+                    <p class="error">!</p>
                 </div>
-    
-                <div>
+                
+                <div class="form-control">
                     <input type="text" name="email-user" id="email-user" placeholder="EMAIL">
+                    <p class="error">!</p>
                 </div>
-    
-                <div>
+                
+                <div class="form-control">
                     <textarea name="message" id="message" placeholder="message"></textarea>
+                    <p class="error">!</p>
                 </div>
+
+                <button id="btn-form" type="submit"></button>
             </form>
         </div>
 
