@@ -220,7 +220,6 @@ footer {
 }
 
 footer .container-footer {
-    /* background-color: red; */
     width: 100%;
     max-width: 1110px;
     margin: 0 auto;
@@ -247,7 +246,6 @@ footer .container-footer #formulay {
 }
 
 footer .form-control .error {
-    /* background-color: blanchedalmond; */
     width: 24px;
     height: 24px;
     font-size: 24px;
