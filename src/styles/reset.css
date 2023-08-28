@@ -34,6 +34,8 @@ img {
 input, textarea {
     width: 100%;
     border: none;
+    background-color: transparent;
+    border-bottom: 1px solid var(--tertiary-color);
 }
 
 textarea {
