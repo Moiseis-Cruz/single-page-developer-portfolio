@@ -245,6 +245,27 @@ footer .container-footer #formulay {
     width: 445px;
 }
 
+footer .container-footer .form-control {
+    height: 64px;
+    margin-bottom: 11px;
+    /* background-color: gray; */
+}
+
+footer .form-control input {
+    height: 43px;
+}
+
+footer .form-control textarea {
+    height: 107px;
+    background-color: red;
+}
+
+footer .form-control #btn-form {
+    display: inline-block;
+    margin-top: 32px;
+    background-color: var(--tertiary-color);
+}
+
 footer .form-control .error {
     width: 24px;
     height: 24px;
@@ -260,4 +281,8 @@ footer .form-control .error {
 footer .form-control .error-message {
     color: var(--color-error);
     font-size: 12px;
+}
+
+footer .form-control .error, footer .form-control .error-message {
+    display: none;
 }
