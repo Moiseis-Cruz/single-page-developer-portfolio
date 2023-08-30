@@ -215,15 +215,15 @@ main {
 }
 
 footer {
-    margin-top: 135px;
+    margin-top: 139px;
+    padding-top: 84px;
     background-color: var(--darck-secundary);
 }
 
 footer .container-footer {
+    margin: 0 auto;
     width: 100%;
     max-width: 1110px;
-    margin: 0 auto;
-    padding-top: 84px;
     display: flex;
     justify-content: space-between;
 }
@@ -241,14 +241,13 @@ footer .container-footer .description-footer {
 }
 
 footer .container-footer #formulay {
-    background-color: purple;
     width: 445px;
+    height: 327px;
 }
 
 footer .container-footer .form-control {
     height: 64px;
     margin-bottom: 11px;
-    /* background-color: gray; */
 }
 
 footer .form-control input {
@@ -257,7 +256,6 @@ footer .form-control input {
 
 footer .form-control textarea {
     height: 107px;
-    background-color: red;
 }
 
 footer .form-control #btn-form {
