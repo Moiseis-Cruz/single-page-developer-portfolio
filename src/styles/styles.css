@@ -244,11 +244,14 @@ footer .container-footer .description-footer {
 
 footer .container-footer #formulay {
     width: 445px;
+    height: 327px;
+    /* display: inline-block; */
 }
 
 footer .container-footer .form-control {
     height: 64px;
-    margin-bottom: 11px;
+    background-color: yellow;
+    /* margin-bottom: 11px; */
 }
 
 footer .form-control input {
