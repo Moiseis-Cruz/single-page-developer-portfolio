@@ -215,7 +215,9 @@ main {
 }
 
 footer {
-    margin-top: 139px;
+    width: 100%;
+    max-width: 1440px;
+    margin: 139px auto 0;
     padding-top: 84px;
     background-color: var(--darck-secundary);
 }
@@ -242,7 +244,6 @@ footer .container-footer .description-footer {
 
 footer .container-footer #formulay {
     width: 445px;
-    height: 327px;
 }
 
 footer .container-footer .form-control {
@@ -258,10 +259,17 @@ footer .form-control textarea {
     height: 107px;
 }
 
-footer .form-control #btn-form {
+footer #btn-form {
     display: inline-block;
-    margin-top: 32px;
-    background-color: var(--tertiary-color);
+    /* margin-top: 32px; */
+    width: 144px;
+    height: 38px;
+    background-color: transparent;
+    color: #ffffff;
+    letter-spacing: 2.286px;
+    font-weight: 700;
+    border-bottom: 1px solid var(--primary-color);
+    padding-bottom: 10px;
 }
 
 footer .form-control .error {
