@@ -42,3 +42,7 @@ textarea {
     font-family: 'Space Grotesk', sans-serif;
     resize: none;
 }
+
+button {
+    border: none;
+}
